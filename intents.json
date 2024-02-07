@@ -1,0 +1,460 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Good Morning",
+                "Good Afternoon",
+                "Hey",
+                "Hola",
+                "Good Evening",
+                "Hello",
+                "Good day",
+                "Hi"
+            ],
+            "responses": [
+                "Hello! What can I do for you?",
+                "Hola! is there anything that I can help you with?",
+                "Hi there, how can I help?",
+                "Hi, Nice to meet you! How can I help you?",
+                "It's a pleasure to meet you! How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Good night",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "byeeee",
+                "byee"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon",
+                "Have a great day!",
+                "Catch you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "good bye",
+                "thanku",
+                "Thankyou",
+                "Thanks for helping me",
+                "Thank you for your time today!",
+                "Thank you so much"
+            ],
+            "responses": [
+                "Happy to help!",
+                "I'm glad that I helped you!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "how_are_u",
+            "patterns": [
+                "how r u",
+                "How are you",
+                "How to do you do?",
+                "are you doing good?",
+                "How's your day going?"
+            ],
+            "responses": [
+                "I am doing really great! How can I help you?",
+                "I'm fine, thanks! "
+            ]
+        },
+        {
+            "tag": "robot",
+            "patterns": [
+                "robot?",
+                "Who created you?",
+                "Are you real?",
+                "r u human?",
+                "How do you work?"
+            ],
+            "responses": [
+                "I am a chatbot created using Artificial Intelligence. Hope so that answers..."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "May I know your name?",
+                "Who are you?",
+                "name",
+                "What's your name?",
+                "Tell me your name",
+                "Tell me about yourself..."
+            ],
+            "responses": [
+                "My name is G Bot, I am an AI ChatBot, What can I do for you?"
+            ]
+        },
+        
+        {
+            "tag": "types_of_loans",
+            "patterns": [
+                "types of loans",
+                "Tell me about different loans",
+                "Loan options",
+                "What are the types of loans?"
+            ],
+            "responses": [
+                "Certainly! Here are some common types of loans:<br> - Personal Loan<br>- Agriculture Loan<br>- Home Loan<br>- Vehicle Loan<br><br>Each type of loan serves different purposes and comes with specific eligibility criteria, required documents, and interest rates. If you have a specific type in mind, feel free to ask for more details!"
+            ]
+        },
+        {
+            "tag": "Personal_loans",
+            "patterns": [
+                "Personal loans", 
+                "SBI personal loans",
+                "Canara personal loans",
+                "Government personal loan",
+                "Personal loans from SBI",
+                "SBI loans",
+                "Government personal loan",
+                "Personal loans from Canara bank",
+                "Canara loans",
+                "Government personal loans",
+                "Bank of Baroda personal loan",
+                "BOB personal loans",
+                "Bank of India personal loan",
+                "BOI personal loans",
+                "Union Bank personal loan",
+                "Union Bank of India personal loans"
+            ],
+            "responses": ["They are few Personal govt loans available.<br>1)For State Bank of India (SBI) personal loans, please <a href='https://www.sbi.co.in/web/interest-rates/interest-rates/loan-schemes-interest-rates/personal-loans-schemes' target='_blank'>click this link</a>.,<br>2)For Canara Bank personal loans, please <a href='https://canarabank.com/PERSONAL-LOANS' target='_blank'>click this link</a>.,<br>3)For Bank of Baroda (BOB) personal loans, please <a href='https://www.bankofbaroda.in/personal-banking/loans/personal-loan' target='_blank'>click this link</a>.,<br>4)For Bank of India (BOI) personal loans, please <a href='https://bankofindia.co.in/personal-loan' target='_blank'>click this link</a>.,<br>5)For Union Bank of India personal loans, please <a href='https://www.unionbankofindia.co.in/english/retail-loan-bsnl2.aspx' target='_blank'>click this link</a>."
+            ]
+        },
+        {
+            "tag": "Home_loans",
+            "patterns": [
+                "Home loans", 
+                "SBI home loans",
+                "Canara home loans",
+                "Government home loan",
+                "Home loans from SBI",
+                "SBI housing loans",
+                "Government home loan",
+                "Home loans from Canara bank",
+                "Canara housing loans",
+                "Government home loans",
+                "Bank of Baroda home loan",
+                "BOB home loans",
+                "Bank of India home loan",
+                "BOI home loans",
+                "Union Bank home loan",
+                "Union Bank of India home loans"
+            ],
+            "responses": [
+                "This are few Home loans available .<br>1)For State Bank of India (SBI) home loans, please <a href='https://homeloans.sbi/' target='_blank'>click this link</a>.<br>2)For Canara Bank home loans, please <a href='https://canarabank.com/HOME-LOAN' target='_blank'>click this link</a>.<br>3)For Bank of Baroda (BOB) home loans, please <a href='https://www.bankofbaroda.in/personal-banking/loans/home-loan' target='_blank'>click this link</a>.<br>4)For Bank of India (BOI) home loans, please <a href='https://bankofindia.co.in/home-loan' target='_blank'>click this link</a>.<br>5)For Union Bank of India home loans, please <a href='https://www.unionbankofindia.co.in/english/apply-online-home-loan.aspx' target='_blank'>click this link</a>."
+            ]
+        },
+        {
+            "tag": "Vehicle_loans",
+            "patterns": [
+                "Vehicle loans", 
+                "SBI vehicle loans",
+                "Canara vehicle loans",
+                "Government vehicle loan",
+                "Vehicle loans from SBI",
+                "SBI auto loans",
+                "Government vehicle loan",
+                "Vehicle loans from Canara bank",
+                "Canara auto loans",
+                "Government vehicle loans",
+                "Bank of Baroda vehicle loan",
+                "BOB auto loans",
+                "Bank of India vehicle loan",
+                "BOI auto loans",
+                "Union Bank vehicle loan",
+                "Union Bank of India vehicle loans"
+            ],
+            "responses": ["They are few Vehicle laons available.<br.1)For State Bank of India (SBI) vehicle loans, please <a href='https://sbi.co.in/web/personal-banking/loans/auto-loans' target='_blank'>click this link</a>.<br>2)For Canara Bank vehicle loans, please <a href=' https://canarabank.com/canara-vehicle' target='_blank'>click this link</a>.<br>3)For Bank of Baroda (BOB) vehicle loans, please <a href='https://www.bankofbaroda.in/personal-banking/loans/vehicle-loan/baroda-car-loan' target='_blank'>click this link</a>.<br>4)For Bank of India (BOI) vehicle loans, please <a href='https://bankofindia.co.in/vehicle-loan1' target='_blank'>click this link</a>.<br>5)For Union Bank of India vehicle loans, please <a href='https://www.unionbankofindia.co.in/english/vehicle-loan.aspx' target='_blank'>click this link</a>."
+            ]
+        },
+        {
+            "tag": "insurance_types",
+            "patterns": [
+                "types of insurance",
+                "Tell me about different insurance",
+                "Insurance options",
+                "What are the types of insurance?"
+            ],
+            "responses": [
+                "Certainly! Here are some common types of insurance:<br> - Life Insurance<br>- Health Insurance<br>- Vehicle Insurance<br>- Property Insurance<br>- Travel Insurance<br><br>Each type of insurance serves different purposes and provides coverage for specific risks. If you have a specific type in mind, feel free to ask for more details!"
+            ]
+        },
+        {
+            "tag": "life_insurance",
+            "patterns": [
+                "Life insurance",
+                "Term life insurance",
+                "Whole life insurance",
+                "Universal life insurance",
+                "Variable life insurance",
+                "Life insurance policy"
+            ],
+            "responses": [
+                "Life insurance provides financial protection to your family or beneficiaries in the event of your death. There are different types of life insurance policies, including:<br>- Term Life Insurance<br>- Whole Life Insurance<br>- Universal Life Insurance<br>- Variable Life Insurance<br><br>Each type has its own features and benefits. If you need more details about any specific type, feel free to ask!"
+            ]
+        },
+        {
+            "tag": "Agriculture_Loans",
+            "patterns": [
+              "Agriculture loans",
+              "Farm loans",
+              "Rural credit",
+              "Government agriculture loan",
+              "Agricultural financing",
+              "Loans for farmers",
+              "Agriculture loan schemes",
+              "Bank loans for agriculture",
+              "Crop loans",
+              "Agriculture credit",
+              "Farm credit options",
+              "Rural development loans"
+            ],
+            "responses": [
+              "This are the govt agriculture loan available.<br>1)For information on agriculture loans from State Bank of India (SBI), please <a href='https://www.sbi.co.in/portal/web/agriculture-banking/agriculture-loan' target='_blank'>click this link</a>.<br>2)Explore Canara Bank's agriculture loan options by visiting <a href='https://canarabank.com/english/loans-and-advances/agriculture-loans/' target='_blank'>this link</a>.<br>3)Bank of Baroda (BOB) offers agricultural loans, and you can find details <a href='https://www.bankofbaroda.in/agriculture-loan' target='_blank'>here</a>.<br>4)Learn about agriculture loans provided by Bank of India (BOI) by visiting <a href='https://www.bankofindia.co.in/Agriculture' target='_blank'>this link</a>.<br>5)For Union Bank of India's agriculture loans, please <a href='https://www.unionbankofindia.co.in/english/agriculture-loans.aspx' target='_blank'>click this link</a>."
+            ]
+        },         
+        {
+            "tag": "health_insurance",
+            "patterns": [
+                "Health insurance",
+                "Medical insurance",
+                "Healthcare insurance",
+                "Private health insurance",
+                "Health insurance policy"
+            ],
+            "responses": [
+                "Health insurance covers medical expenses incurred due to illness or injury. It helps you pay for medical services such as doctor visits, hospital stays, prescription drugs, and other healthcare expenses. There are various types of health insurance plans, including:<br>- Individual Health Insurance<br>- Family Health Insurance<br>- Group Health Insurance<br>- Critical Illness Insurance<br><br>If you want more details about any specific type, feel free to ask!"
+            ]
+        },
+        {
+            "tag": "vehicle_insurance",
+            "patterns": [
+                "Vehicle insurance",
+                "Car insurance",
+                "Auto insurance",
+                "Motor insurance",
+                "Vehicle insurance policy"
+            ],
+            "responses": [
+                "Vehicle insurance provides financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. It includes insurance for cars, motorcycles, trucks, and other road vehicles. Types of vehicle insurance include:<br>- Third-party Insurance<br>- Comprehensive Insurance<br>- Collision Coverage<br>- Liability Coverage<br><br>If you need more information about any specific type, feel free to ask!"
+            ]
+        },
+        {
+            "tag": "property_insurance",
+            "patterns": [
+                "Property insurance",
+                "Home insurance",
+                "Real estate insurance",
+                "Building insurance",
+                "Property insurance policy"
+            ],
+            "responses": [
+                "Property insurance provides coverage for risks related to your property, including your home, belongings, and real estate. It protects against losses or damages caused by events like fire, theft, natural disasters, and more. Types of property insurance include:<br>- Homeowners Insurance<br>- Renters Insurance<br>- Condo Insurance<br>- Landlord Insurance<br>- Flood Insurance<br><br>If you want more details about any specific type, feel free to ask!"
+            ]
+        },
+        {
+            "tag": "travel_insurance",
+            "patterns": [
+                "Travel insurance",
+                "Trip insurance",
+                "Holiday insurance",
+                "Vacation insurance",
+                "Travel insurance policy"
+            ],
+            "responses": [
+                "Travel insurance provides coverage for unexpected events that can occur while traveling, such as trip cancellations, medical emergencies, lost luggage, and more. It offers financial protection and peace of mind during your travels. Types of travel insurance include:<br>- Trip Cancellation Insurance<br>- Medical Evacuation Insurance<br>- Baggage Insurance<br>- Travel Health Insurance<br><br>If you need more information about any specific type, feel free to ask!"
+            ]
+        },
+        {
+            "tag": "emi_calculation_assistance",
+            "patterns": [
+                "emi calculator",
+                "How can I calculate the EMI for a personal loan?",
+                "Personal loan EMI calculation"
+            ],
+            "responses": [
+                "I can help you with that! Please provide the loan amount, interest rate, and tenure, and please <a href='https://emicalculator.net/' target='_blank'>click here</a> for the emi calculator."
+            ]
+        },
+        {
+            "tag": "loan_interest_rates",
+            "patterns": [
+                "Interest rates",
+                "Loan interest rates",
+                "Current interest rates",
+                "Interest rates for loans",
+                "What are the interest rates?"
+            ],
+            "responses": [
+                "Interest rates for loans vary depending on the type of loan and the lender. They are typically influenced by factors such as market conditions, the borrower's creditworthiness, and the loan term. To get the most accurate and up-to-date information about interest rates, it's best to directly contact the lender or visit their official website."
+            ]
+        },
+        {
+            "tag": "loan_tenure",
+            "patterns": [
+                "Loan tenure",
+                "Duration of loan",
+                "Loan repayment period",
+                "How long is the loan tenure?",
+                "What is the loan duration?"
+            ],
+            "responses": [
+                "Loan tenure refers to the period for which a loan is sanctioned. It varies based on the type of loan, lender policies, and the borrower's repayment capacity. Some loans have short tenures, such as personal loans, while others like home loans can have longer tenures extending up to several years. The loan tenure is an important factor to consider when planning for loan repayment."
+            ]
+        },
+        {
+            "tag": "loan_eligibility_criteria",
+            "patterns": [
+                "Eligibility criteria",
+                "Loan eligibility",
+                "Who is eligible for a loan?",
+                "What are the eligibility criteria?"
+            ],
+            "responses": [
+                "Loan eligibility criteria are the set of conditions that borrowers need to meet in order to qualify for a loan. These criteria typically include factors such as the borrower's age, income, credit score, employment status, and more. Lenders use these criteria to assess the borrower's creditworthiness and ability to repay the loan."
+            ]
+        },
+        {
+            "tag": "required_documents",
+            "patterns": [
+                "Required documents",
+                "Documents for loan",
+                "What documents are required?",
+                "Documents needed for loan application"
+            ],
+            "responses": [
+                "When applying for a loan, certain documents are usually required to verify the borrower's identity, address, income, employment, and other relevant details. Commonly requested documents include proof of identity (such as a government-issued ID), address proof, income documents (like salary slips or tax returns), bank statements, and property documents (for secured loans). The specific documents needed may vary based on the type of loan and the lender's requirements."
+            ]
+        },
+        {
+            "tag": "loan_application_process",
+            "patterns": [
+                "Application process",
+                "Loan application",
+                "How to apply for a loan?",
+                "What is the loan application process?"
+            ],
+            "responses": [
+                "The loan application process involves several steps, starting from filling out the application form to the disbursal of funds. Typically, the process includes submitting the required documents, completing the application form with accurate details, undergoing a credit check, and meeting other lender-specific requirements. Once the application is approved, the loan agreement is signed, and the funds are disbursed as per the terms and conditions."
+            ]
+        },
+        {
+            "tag": "loan_repayment_options",
+            "patterns": [
+                "Repayment options",
+                "Loan repayment",
+                "How to repay the loan?",
+                "What are the loan repayment options?"
+            ],
+            "responses": [
+                "Loan repayment options refer to the various methods available for repaying the loan amount and the associated interest. Common repayment options include monthly installments (EMIs), bullet payments, flexible repayment schedules, and more. Borrowers can choose a repayment option that best suits their financial situation and preferences. It's important to understand the terms of repayment and choose an option that allows for timely repayment without financial strain."
+            ]
+        },
+        {
+            "tag": "insurance_coverage_details",
+            "patterns": [
+                "Coverage details",
+                "Insurance coverage",
+                "What does the insurance cover?",
+                "Details of coverage"
+            ],
+            "responses": [
+                "Insurance coverage details outline what risks or events are covered by the insurance policy. This includes the extent of coverage for various scenarios such as accidents, illnesses, natural disasters, theft, and more. The coverage details also specify any exclusions or limitations that may apply to the policy. To get specific information about coverage details, it's best to refer to the policy document provided by the insurer or contact them directly."
+            ]
+        },
+        {
+            "tag": "insurance_premium_rates",
+            "patterns": [
+                "Premium rates",
+                "Insurance premiums",
+                "How much is the premium?",
+                "What are the premium rates?"
+            ],
+            "responses": [
+                "Premium rates refer to the amount of money that policyholders need to pay to the insurance company to maintain their insurance coverage. The premium amount is determined based on various factors such as the type of insurance, coverage amount, policyholder's age, health condition, occupation, and more. Premium rates can vary between insurance companies and policies. To get accurate premium rates, it's best to request a quote from the insurer or use their online premium calculator."
+            ]
+        },
+        {
+            "tag": "insurance_policy_terms",
+            "patterns": [
+                "Policy terms",
+                "Insurance policy terms",
+                "What are the policy terms?",
+                "Details of policy terms"
+            ],
+            "responses": [
+                "Policy terms refer to the conditions and provisions outlined in an insurance policy. These terms specify the rights and obligations of both the insurer and the policyholder. They include details such as the coverage period, premium payment schedule, policy exclusions, claim procedures, renewal terms, and more. It's important to thoroughly review the policy terms to understand the scope of coverage and the responsibilities of both parties."
+            ]
+        },
+        {
+            "tag": "insurance_claim_process",
+            "patterns": [
+                "Claim process",
+                "Insurance claim",
+                "How to claim insurance?",
+                "What is the claim process?"
+            ],
+            "responses": [
+                "The insurance claim process outlines the steps that policyholders need to follow when they need to make a claim against their insurance policy. This typically involves notifying the insurer about the claim, providing necessary documentation (such as proof of loss or medical reports), cooperating with the insurer's investigation if required, and following any other specific claim procedures outlined in the policy. The claim process aims to ensure that policyholders receive the benefits they are entitled to under the policy terms."
+            ]
+        },
+        {
+            "tag": "insurance_renewal_process",
+            "patterns": [
+                "Renewal process",
+                "Insurance renewal",
+                "How to renew insurance?",
+                "What is the renewal process?"
+            ],
+            "responses": [
+                "Insurance renewal refers to the process of extending an existing insurance policy beyond its original term. The renewal process involves reviewing the policy terms, assessing any changes in coverage or premium rates, and making the necessary payments to continue the coverage. Policyholders are typically notified in advance about the renewal process and any changes to the policy. It's important to renew insurance policies on time to avoid any gaps in coverage."
+            ]
+        },
+        {
+            "tag": "insurance_addon_benefits",
+            "patterns": [
+                "Add-on benefits",
+                "Insurance add-ons",
+                "What are the add-on benefits?",
+                "Details of add-on benefits"
+            ],
+            "responses": [
+                "Add-on benefits, also known as riders or endorsements, are additional coverages that policyholders can purchase to enhance their insurance policy. These benefits provide extra protection beyond the standard coverage offered by the base policy. Add-on benefits can include options such as accidental death benefit, critical illness cover, hospital cash, waiver of premium, and more. Policyholders can customize their insurance coverage by adding relevant add-on benefits to meet their specific needs and preferences."
+            ]
+        },
+        
+            {
+                "tag": "Pradhan Mantri Ujjwala Yojana",
+                "patterns": [
+                    "Pradhan Mantri Ujjwala Yojana",
+                    "Safety",
+                    "Is there any schemes related to Safety",
+                    "It is a scheme of the Ministry of Petroleum & Natural Gas for providing LPG connections to women from Below Poverty Line (BPL) households.",
+                    "I want to know about Pradhan Mantri Ujjwala Yojana",
+                    "can you tell me about Pradhan Mantri Ujjwala Yojana",
+                    "what is Pradhan Mantri Ujjwala Yojana"
+                ],
+                "responses": [
+                    "Pradhan Mantri Ujjwala Yojana. It is a scheme of the Ministry of Petroleum & Natural Gas for providing LPG connections to women from Below Poverty Line (BPL) households."
+                ]
+            }
+        ]
+    }
